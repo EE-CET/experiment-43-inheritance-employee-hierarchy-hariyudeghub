@@ -48,13 +48,14 @@ public class EmployeeInheritance {
         System.out.println(o1.address);
         System.out.println(o1.salary);
         System.out.println(o1.specialization);
-
         System.out.println("Manager:");
         System.out.println(m1.name);
         System.out.println(m1.age);
         System.out.println(m1.phoneNumber);
         System.out.println(m1.address);
         System.out.println(m1.salary);
-        System.out.println(m1.department);
+        System.out.print(m1.department);
+
+        sc.close();
     }
 }
